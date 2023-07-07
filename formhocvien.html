@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FORM sở thích</title>
+    <style>
+        th{
+            text-align:center;
+        }
+        td {
+            color: #d61b06;
+        }
+    </style>
+</head>
+<body>
+  <form style="width: 500px">
+    <fieldset>
+      <legend >SỞ THÍCH CỦA BẠN</legend>
+        Họ và tên <input type="text" name="yourname"><br>
+        Email     <input type="text" name="email"><br>
+        <table>
+
+                    <tr>
+                        <th rowspan="3">Sở thích</th>
+                        <td> <input type="checkbox" name="hobby" value="sport">Thể thao</td>
+                        <td> <input type="checkbox" name="hobby" value="music">Âm nhac</td>
+                        <td> <input type="checkbox" name="hobby" value="reading">Đọc sách</td>
+                    </tr>
+                    <tr>
+                        <td> <input type="checkbox" name="hobby" value="surf the web">Lướt web</td>
+                        <td> <input type="checkbox" name="hobby" value="play game">Chơi game</td>
+                        <td> <input type="checkbox" name="hobby" value="film">Điện ảnh</td>
+                    </tr>
+                    <tr>
+                        <td> <input type="checkbox" name="hobby" value="travel">Du lịch</td>
+                    </tr>
+
+                </table>
+        <input type="button" name="Submit form" value="Gửi thông tin">
+        <input type="button" name="Submid form" value="Nhập lại">
+
+    </fieldset>
+  </form>
+</body>
+</html>
